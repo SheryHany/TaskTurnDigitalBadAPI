@@ -1,0 +1,48 @@
+
+.cardContainer {
+    margin-right: 35px;
+    margin: 1%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    background-color: white;
+}
+
+.cardContainer:hover {
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .2);
+}
+
+.rowContainer {
+    margin-left: 27px;
+}
+
+.cardContainer p{
+    margin-left: 92px;
+    float: right;
+    position: absolute;
+    z-index: 1000000;
+    position: 17px;
+    background-color: #ff2828;
+    border-radius: 50px;
+    width: 48px;
+    color: wheat;
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, .1);
+}
+.cardContainer img {
+    width: 107px;
+    position: relative;
+    border-radius: 60px;
+    margin: auto;
+    text-align: center;
+    margin-left: 14px;
+}
+
+.cardContainer h5 {
+    text-align: center;
+    padding-top: 8px;
+}
+.cardContainer h6 {
+    text-align: center;
+    color: darkgray;
+}

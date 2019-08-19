@@ -1,0 +1,11 @@
+<div class="container p-2">
+    <div class="row rowContainer">
+        <div class="col-sm-2 p-4 cardContainer" *ngFor="let info of news | mapToIterable" style="flex-wrap: wrap;">
+
+            <p style="color: black">{{ info.items.title }}</p>
+            <!-- <img src="{{info.items.enclosure.link}}" />
+            <h5>{{ info.items.title }}</h5>
+            <h6>{{ info.items.pubDate }}</h6> -->
+        </div>
+    </div>
+</div>
